@@ -13,7 +13,7 @@ Done
 ## Check Nexus works fine:
 
 ```
-curl localhost:8081
+curl 0.0.0.0:8081
 ```
 You should get html response
 
