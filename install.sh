@@ -16,7 +16,7 @@ tar -xzvf $dir/sonatype-work.tar.gz -C /opt/
 chown -R nexus: /opt/nexus
 
 # Create systemd unit
-cp nexus.service /etc/systemd/system/nexus.service
+cp $dir/nexus.service /etc/systemd/system/nexus.service
 
 systemctl daemon-reload
 systemctl restart nexus
